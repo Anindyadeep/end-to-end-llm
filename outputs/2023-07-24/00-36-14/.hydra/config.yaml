@@ -1,0 +1,19 @@
+model:
+  gpt4all_model:
+    gpt4all_model_name: ggml-mpt-7b-instruct.bin
+    gpt4all_model_folder_path: /home/anindya/.local/share/nomic.ai/GPT4All/
+    gpt4all_backend: llama
+    gpt4all_allow_streaming: true
+    gpt4all_allow_downloading: false
+    gpt4all_temperature: 1
+    gpt4all_top_p: 0.1
+    gpt4all_top_k: 40
+    gpt4all_n_batch: 8
+    gpt4all_n_threads: 4
+    gpt4all_n_predict: 256
+    gpt4all_max_tokens: 200
+    gpt4all_repeat_last_n: 64
+    gpt4all_penalty: 1.18
+knowledge_base: {}
+developement:
+- model: model_dev

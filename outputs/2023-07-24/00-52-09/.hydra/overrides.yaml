@@ -1,0 +1,5 @@
+- model.gpt4all_model.gpt4all_model_name=ggml-mpt-7b-instruct.bin
+- model.gpt4all_model.gpt4all_temperature=1
+- model.gpt4all_model.gpt4all_top_k=50
+- model.gpt4all_model.gpt4all_max_tokens=10
+- model.gpt4all_model.gpt4all_penalty=1.00

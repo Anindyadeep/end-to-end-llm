@@ -1,0 +1,2 @@
+- model.gpt4all_model.gpt4all_model_name=ggml-mpt-7b-instruct.bin
+- model.gpt4all_model.gpt4all_temperature=1
