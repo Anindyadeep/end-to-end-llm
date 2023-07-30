@@ -1,0 +1,11 @@
+chroma:
+  chroma_db_directory: db
+  document_source_directory: /home/anindya/workspace/repos/end-to-end-llm/DocChat/data
+  target_source_chunks: 4
+  chunk_size: 1000
+  chunk_overlap: 50
+  hide_source_documents: false
+  chroma_settings:
+    chroma_db_impl: duckdb+parquet
+    persist_directory: db 
+    anonymized_telemetry: false

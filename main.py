@@ -3,7 +3,6 @@ from src.models.gpt4all_model import MyGPT4ALL
 
 @hydra.main(config_path='./configs', config_name='config')
 def main(cfg):
-
     # instantiate the model and populate the arguments using hydra
 
     chat_model = MyGPT4ALL(
